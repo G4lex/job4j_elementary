@@ -20,7 +20,7 @@ public class Converter {
         System.out.println(x + " rubles are " + dollar + " dollar");
         float euroS = euro / dollar;
         String str = Float.toString(euroS);
-         System.out.println(dollar + " dollars are " + euroS + " euro");
+        System.out.println(dollar + " dollars are " + euroS + " euro");
 
     }
 }
