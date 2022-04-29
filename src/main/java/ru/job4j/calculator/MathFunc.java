@@ -18,4 +18,6 @@ public class MathFunc {
        int total = result1 + result2;
        System.out.println(total);
          }
+        }
+
 }
