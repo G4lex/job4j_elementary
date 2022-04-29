@@ -13,7 +13,7 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-         int x = 100;
+        int x = 100;
         float euro = Converter.rubleToEuro(x);
         System.out.println(x + " rubles are " + euro + " euro.");
         float dollar = Converter.rubleToDollar(x);
