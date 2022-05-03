@@ -11,13 +11,18 @@ public class Converter {
         return value / 60;
     }
 
+    public static float dollarToEuro(float dollar) {
+        return dollar / 2;
+    }
+
     public static void main(String[] args) {
         float in = 140;
         float euro = Converter.rubleToEuro(in);
         System.out.println(in + " rubles are " + euro + " euro.");
         float dollar = Converter.rubleToDollar(in);
         System.out.println(in + " rubles are " + dollar + " dollar");
-        float euroS = euro / dollar;
+        //float euroS = dollar / euro;
+        float euroS = Converter.dollarToEuro(dollar);
         System.out.println(dollar + " dollars are " + euroS + " euro");
 
         float expected = 2;
@@ -28,8 +33,8 @@ public class Converter {
             float out2 = Converter.rubleToDollar(in);
             boolean passed2 = expected2 == out2;
             System.out.println(in + " rubles are " + out2 + " Test result : " + passed2);
-           float out3 = euroS;
-           float expected3 = 0.85714287f;
+           float out3 = Converter.dollarToEuro(dollar);
+           float expected3 = 1.1666666f;
            boolean passed3 = expected3 == out3;
            System.out.println(dollar + " dollar are " + out3 + " Test result : " + passed3);
 
