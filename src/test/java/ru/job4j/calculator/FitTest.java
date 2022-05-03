@@ -18,7 +18,7 @@ public class FitTest {
     @Test
     public void womanWeight() {
         short in = 165;
-        double expected =63.24;
+        double expected = 63.24;
         double out = Fit.womanWeight(in);
         Assert.assertEquals(expected, out, 0.01);
     }
