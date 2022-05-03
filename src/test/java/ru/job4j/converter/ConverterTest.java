@@ -26,7 +26,7 @@ public class ConverterTest {
     @Test
     public void whenConvert2dot3333Then0dot8571Er() {
         float in = 2.3333333f;
-        float expected = 1.1666666f;
+        float expected = 1.166666f;
         float  out = Converter.dollarToEuro(in);
         float  eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);

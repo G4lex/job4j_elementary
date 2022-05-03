@@ -21,7 +21,6 @@ public class Converter {
         System.out.println(in + " rubles are " + euro + " euro.");
         float dollar = Converter.rubleToDollar(in);
         System.out.println(in + " rubles are " + dollar + " dollar");
-        //float euroS = dollar / euro;
         float euroS = Converter.dollarToEuro(dollar);
         System.out.println(dollar + " dollars are " + euroS + " euro");
 
