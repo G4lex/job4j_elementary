@@ -18,7 +18,7 @@ public class MaxTest {
     public void whenMax1To4ThenRight() {
         int left = 1;
         int right = 4;
-        int result = Max.right(right, left);
+        int result = Max.left(right, left);
         int expected = 4;
         Assert.assertEquals(result, expected);
     }
@@ -27,7 +27,7 @@ public class MaxTest {
     public void whenMax1To3ThenEqual() {
         int left = 3;
         int right = 3;
-        int result = Max.equal(left, right);
+        int result = Max.left(left, right);
         int expected = 3;
         Assert.assertEquals(result, expected);
     }
