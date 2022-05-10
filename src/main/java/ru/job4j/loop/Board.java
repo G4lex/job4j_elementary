@@ -2,10 +2,10 @@ package ru.job4j.loop;
 
 public class Board {
     public static void paint(int width, int height) {
-        for (int strk = 0; strk < height; strk++) {
-            for (int stolb = 0; stolb < width; stolb++) {
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
 
-                if (stolb < width) {
+                if ((i + j) % 2 == 0) {
                     System.out.print("X");
                 } else {
                     System.out.print(" ");
