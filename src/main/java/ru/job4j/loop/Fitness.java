@@ -8,7 +8,6 @@ public class Fitness {
             nik *= 2;
             month += 1;
         }
-            return month;
-        }
-
+        return month;
+    }
 }
