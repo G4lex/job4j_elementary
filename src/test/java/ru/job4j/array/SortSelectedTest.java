@@ -14,11 +14,9 @@ public class SortSelectedTest {
 
     @Test
     public void whenSortArrayOf3elements() {
-        int[] data = new int[] {133, 44, 16,};
+        int[] data = new int[] {133, 44, 16};
         int[] result = SortSelected.sort(data);
-        int[] expected = new int[] {16, 44, 133,};
+        int[] expected = new int[] {16, 44, 133};
         Assert.assertArrayEquals(expected, result);
     }
-
-
 }
