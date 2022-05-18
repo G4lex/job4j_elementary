@@ -19,7 +19,7 @@ public class MatrixCheckTest {
     public void whenHasNotSymbol() {
         char[][] input = {
                 {' ', ' ', ' '},
-                {'X', 'X', 'X'},
+                {' ', ' ', ' '},
                 {' ', ' ', ' '},
         };
         int row = 1;
