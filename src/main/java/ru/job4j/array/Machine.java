@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class Machine {
     public static int[] change(int money, int price) {
         int[] coins = {10, 5, 2, 1}, rsl = new int[100];
-        int size = 0, oddmoney = money - price;
+        int size = 0;
+        int oddmoney = money - price;
         for (int coin : coins) {
             while (oddmoney >= coin) {
                 rsl[size++] = coin;
