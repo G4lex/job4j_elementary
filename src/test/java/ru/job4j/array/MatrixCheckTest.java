@@ -43,9 +43,9 @@ public class MatrixCheckTest {
     @Test
     public void whenHasNotVerticalSymbol() {
         char[][] input = {
+                {' ', ' ', 'X'},
                 {' ', ' ', ' '},
-                {' ', ' ', ' '},
-                {' ', ' ', ' '},
+                {' ', ' ', 'X'},
         };
         int column = 2;
         boolean result = MatrixCheck.monoVertical(input, column);
