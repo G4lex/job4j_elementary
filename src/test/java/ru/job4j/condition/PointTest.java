@@ -37,7 +37,7 @@ public class PointTest {
     @Test
     public void when13to68then7dot07() {
         double expected = 7.07;
-        Point a1 = new Point(1, 3);
+        Point a 1 = new Point(1, 3);
         Point b1 = new Point(6, 8);
         double out = a1.distance(b1);
         Assert.assertEquals(expected, out, 0.01);
