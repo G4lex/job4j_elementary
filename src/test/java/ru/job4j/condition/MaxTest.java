@@ -49,9 +49,8 @@ public class MaxTest {
         int left = 3;
         int right = 3;
         int mid = 3;
-        int result = Max.max(left, right,mid);
+        int result = Max.max(left, right, mid);
         int expected = 3;
         Assert.assertEquals(expected, result);
     }
-
 }
