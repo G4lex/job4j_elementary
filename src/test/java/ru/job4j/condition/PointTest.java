@@ -45,7 +45,7 @@ public class PointTest {
 
     @Test
     public void when3d() {
-        double expected = 4.5825 ;
+        double expected = 4.5825;
         Point one = new Point(0, 1, 3);
         Point two = new Point(4, 0, 1);
         double out = one.distance3d(two);
