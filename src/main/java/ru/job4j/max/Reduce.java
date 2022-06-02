@@ -1,6 +1,6 @@
 package ru.job4j.max;
 
-public class Reduce {
+public class Redu ce {
     private int[] array;
 
     public void to(int[] array) {
