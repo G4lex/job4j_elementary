@@ -6,10 +6,13 @@ public class Bus implements Transport {
 
     @Override
     public void drive() {
+        System.out.println("drive()");
     }
 
     @Override
     public void passenger(int passeng) {
+        passeng = 3;
+
     }
 
     @Override
